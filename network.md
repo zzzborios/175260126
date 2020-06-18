@@ -78,7 +78,7 @@
   
   - 网络规划的总体拓扑图如下：
   
-  ![Image](https://github.com/zzzborios/175260126/blob/master/images/1.png)
+          ![Image](https://github.com/zzzborios/175260126/blob/master/images/1.png)
   
   
 > 布线方案详细说明
@@ -87,7 +87,7 @@
   
     每幢楼有六层，每层层45个宿舍，因此我们每层用 2 个24口的10/100MB自适应交换机，网络中心到七号楼采用的是光纤走过了，经过光电转换器后接入一个10/100MB的24口的自适应交换机，每层楼两个交换机分别有一根线接到总交换机上，因此有两个交换机有46个口可用，正好满足需要，其拓扑结构如下图所示：
    
-   ![Image](https://github.com/zzzborios/175260126/blob/master/images/2.png)
+          ![Image](https://github.com/zzzborios/175260126/blob/master/images/2.png)
 
 
 > IP地址分配与子网划分方案
